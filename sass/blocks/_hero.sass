@@ -1,6 +1,8 @@
 .hero
     color: white
     +light
+    background: #4768A6
+    background-color: transparent
 
     &__buttons-scroll
         margin-top: 131px
@@ -70,12 +72,14 @@
     margin-bottom: 30px
 
 .hero__description
+    padding: 20px
     margin-top: 25px
     max-width: 450px
     border-left: 2px solid #ffff
     font-size: 14px
 
 .hero__button-basic
+    border: none
     min-height: 51px
     min-width: 170px
     background-color: #BD0007
@@ -84,4 +88,16 @@
     font-size: 16px
     +regular
     margin-top: 75px
+
+@media  (max-width: 991px)
+    .hero
+        &-wrap
+            display: none
+        &-text
+            font-size: 25px
+        &__button-basic
+            position: relative
+            left: 35px
+            
+    
 
