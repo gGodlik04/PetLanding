@@ -343,4 +343,43 @@ header {
 }
 .history__text {
   margin-bottom: 120px;
+}
+
+.publications__title {
+  font-size: 36px;
+  font-family: "../fonts/Proxima Nova Regular";
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+.publications__notes {
+  width: 306px;
+  height: 480px;
+  margin-top: 100px;
+}
+.publications__notes_img {
+  height: 260px;
+  width: 306px;
+  background-size: cover;
+}
+.publications__notes_date {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "../fonts/Proxima Nova Thin";
+}
+.publications__notes_main {
+  font-size: 16px;
+  font-family: "../fonts/Proxima Nova Regular";
+  font-weight: bold;
+}
+.publications__notes_secondary {
+  margin-top: 20px;
+  color: #133D8D;
+  font-size: 14px;
+}
+.publications-wrap {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 206px;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
