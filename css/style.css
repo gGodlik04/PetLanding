@@ -388,6 +388,8 @@ header {
   background: #899DC5;
   color: white;
   font-family: "../fonts/Proxima Nova Regular";
+  margin-bottom: 150px;
+  height: 1100px;
 }
 .projects p {
   margin: 0;
@@ -447,6 +449,45 @@ header {
   background-size: cover;
 }
 .projects__img_title {
-  display: block;
-  margin: 500px 500px 0px 0px;
+  margin: 441px 193px 20px 45px;
+  font-size: 24px;
+}
+.projects__img_description {
+  margin: 0px 193px 45px 45px;
+  font-size: 14px;
+}
+.projects__info {
+  width: 590px;
+  height: 600px;
+  background-color: #133D8D;
+  font-size: 14px;
+}
+.projects__info span {
+  font-size: 40px;
+}
+.projects__info-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  position: static;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.projects__info_properties {
+  width: 206px;
+  height: 106px;
+}
+.projects__info_button {
+  margin: 217px 360px 55px 60px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px 14px 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+}
+.projects-wrap {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
