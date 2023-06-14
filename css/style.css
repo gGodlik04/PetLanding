@@ -490,4 +490,70 @@ header {
 }
 .projects-wrap {
   display: flex;
+}
+
+.quality {
+  font-family: "../fonts/Proxima Nova Regular";
+  display: flex;
+  margin-bottom: 150px;
+}
+.quality-wrap {
+  margin-right: auto;
+  display: flex;
+}
+.quality__slide {
+  background-color: #DCE2EE;
+  display: flex;
+  width: 1076px;
+  height: 530px;
+}
+.quality__slide_img {
+  width: 480px;
+  height: 410px;
+  margin: 60px;
+}
+.quality__slide_info-descripiton {
+  display: block;
+  background-color: #133D8D;
+  color: white;
+  padding: 8px 12px 5px 12px;
+  width: 157px;
+  height: 31px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.quality__slide_info-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+.quality__slide_info-notes {
+  width: 387px;
+  font-size: 14px;
+  margin-left: 45px;
+}
+.quality__slide_info-notes li::marker {
+  color: #BD0007;
+  font-size: 24px;
+}
+.quality__button {
+  color: white;
+  font-family: "../fonts/Proxima Nova Regular";
+  font-weight: bold;
+  font-size: 25px;
+  height: 60px;
+  width: 60px;
+  background-color: #133D8D;
+  margin-top: 235px;
+}
+.quality__button-left {
+  margin-right: 50px;
+}
+.quality__button-right {
+  margin-left: 50px;
 }/*# sourceMappingURL=style.css.map */
