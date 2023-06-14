@@ -542,6 +542,7 @@ header {
   font-size: 24px;
 }
 .quality__button {
+  border: none;
   color: white;
   font-family: "../fonts/Proxima Nova Regular";
   font-weight: bold;
@@ -556,4 +557,57 @@ header {
 }
 .quality__button-right {
   margin-left: 50px;
+}
+
+.footer {
+  padding-top: 10px;
+  color: white;
+  background-color: #133D8D;
+  font-family: "../fonts/Proxima Nova Thin";
+  font-weight: bold;
+}
+.footer a {
+  style: none;
+  color: white;
+  text-decoration: none;
+}
+.footer-block {
+  padding: 70px;
+}
+.footer__title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-family: "../fonts/Proxima Nova Regular";
+}
+.footer-block {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contacts_adress-spb {
+  margin: 0;
+}
+.footer__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.footer-title {
+  font-family: "../fonts/Proxima Nova Regular";
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.footer__contacts li {
+  display: block;
+  text-align: right;
+}
+.footer li {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
