@@ -759,4 +759,73 @@ main {
 .contacts__text {
   display: block;
   margin-left: 18px;
+}
+
+.career {
+  font-family: "../fonts/Proxima Nova Regular";
+}
+.career__title {
+  display: block;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 90px;
+}
+.career__navigation {
+  margin-top: 60px;
+  font-size: 13px;
+  font-weight: normal;
+  display: flex;
+  margin-bottom: 60px;
+}
+.career__navigation-option-main {
+  display: flex;
+}
+.career__navigation-option-main-vacansies {
+  margin-left: 35px;
+}
+.career__navigation il::marker {
+  color: #133D8D;
+}
+.career__tanker-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.career-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.career__item {
+  flex-basis: 33%;
+  padding: 35px;
+  border: 1px solid #C9C9C9;
+}
+.career__item_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.career__item_name {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.career__item_contract {
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.career__item svg {
+  margin-right: 18px;
+}
+.career__item_detail {
+  width: 101px;
+  height: 37px;
+  background-color: #133D8D;
+  color: white;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
