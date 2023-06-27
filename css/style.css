@@ -68,6 +68,27 @@
   min-height: 70px;
   justify-content: space-between;
 }
+.navbar__second-line_about-us:hover {
+  font-size: 16px;
+}
+.navbar__second-line_fleet:hover {
+  font-size: 16px;
+}
+.navbar__second-line_investors:hover {
+  font-size: 16px;
+}
+.navbar__second-line_career:hover {
+  font-size: 16px;
+}
+.navbar__second-line_press-center:hover {
+  font-size: 16px;
+}
+.navbar__second-line_development:hover {
+  font-size: 16px;
+}
+.navbar__second-line_contacts:hover {
+  font-size: 16px;
+}
 
 .navbar__first-line {
   display: flex;
@@ -196,6 +217,9 @@ header {
   color: white;
   background: #133D8D;
 }
+.hero__button-left:hover {
+  border: 2px solid white;
+}
 .hero__button-right {
   font-family: "../fonts/Proxima Nova Regular";
   text-align: center;
@@ -207,6 +231,9 @@ header {
   font-size: 25px;
   color: white;
   background: #133D8D;
+}
+.hero__button-right:hover {
+  border: 2px solid white;
 }
 
 .hero-text {
@@ -236,6 +263,9 @@ header {
   font-size: 16px;
   font-family: "../fonts/Proxima Nova Regular";
   margin-top: 75px;
+}
+.hero__button-basic:hover {
+  border: 2px solid white;
 }
 
 @media (max-width: 991px) {
@@ -431,6 +461,9 @@ header {
   color: white;
   background: #133D8D;
 }
+.projects__buttons_left:hover {
+  border: 2px solid white;
+}
 .projects__buttons_right {
   text-align: center;
   width: 60px;
@@ -441,6 +474,9 @@ header {
   font-size: 25px;
   color: white;
   background: #133D8D;
+}
+.projects__buttons_right:hover {
+  border: 2px solid white;
 }
 .projects__img {
   width: 706px;
@@ -487,6 +523,9 @@ header {
   text-transform: uppercase;
   background: transparent;
   color: white;
+}
+.projects__info_button:hover {
+  border: 2px solid white;
 }
 .projects-wrap {
   display: flex;
@@ -555,8 +594,16 @@ header {
 .quality__button-left {
   margin-right: 50px;
 }
+.quality__button-left:hover {
+  height: 63px;
+  width: 63px;
+}
 .quality__button-right {
   margin-left: 50px;
+}
+.quality__button-right:hover {
+  height: 63px;
+  width: 63px;
 }
 
 .footer {
@@ -643,6 +690,10 @@ main {
   font-family: "../fonts/Proxima Nova Regular";
   width: 50%;
 }
+.services__info a {
+  text-decoration: none;
+  color: black;
+}
 .services__info_title {
   font-size: 36px;
   margin-top: 60px;
@@ -704,6 +755,10 @@ main {
 .contacts {
   font-family: "../fonts/Proxima Nova Regular";
 }
+.contacts a {
+  text-decoration: none;
+  color: black;
+}
 .contacts__map {
   margin-top: -280px;
 }
@@ -748,6 +803,10 @@ main {
   font-family: "../fonts/Proxima Nova Regular";
   font-size: 13px;
 }
+.contacts__info-label_citys:hover {
+  height: 39px;
+  width: 80px;
+}
 .contacts__info-label_citys-msk {
   margin-right: 20px;
 }
@@ -763,6 +822,10 @@ main {
 
 .career {
   font-family: "../fonts/Proxima Nova Regular";
+}
+.career a {
+  text-decoration: none;
+  color: black;
 }
 .career__title {
   display: block;
@@ -828,4 +891,8 @@ main {
   background-color: #133D8D;
   color: white;
   border: none;
+}
+.career__item_detail:hover {
+  width: 103px;
+  height: 39px;
 }/*# sourceMappingURL=style.css.map */
