@@ -266,19 +266,19 @@ header {
   height: 330px;
 }
 .news__notes:nth-child(1) {
-  background: url("../../img/news1.jpg");
+  background: url("../img/news1.jpg") no-repeat;
   background-size: cover;
 }
 .news__notes:nth-child(2) {
-  background: url("../../img/news2.jpg");
+  background: url("../img/news2.jpg");
   background-size: cover;
 }
 .news__notes:nth-child(3) {
-  background: url("../../img/news3.jpg");
+  background: url("../img/news3.jpg");
   background-size: cover;
 }
 .news__notes:nth-child(4) {
-  background: url("../../img/news4.jpg");
+  background: url("../img/news4.jpg");
   background-size: cover;
 }
 .news__notes_date {
