@@ -361,7 +361,7 @@ header {
   margin-top: 226px;
   width: 606px;
   height: 377px;
-  background: #133D8D url(../../img/history.png) no-repeat center;
+  background: #133D8D url(../img/history.png) no-repeat center;
   background-size: contain;
   background-position: 100%;
 }
@@ -481,7 +481,7 @@ header {
 .projects__img {
   width: 706px;
   height: 600px;
-  background: url("../../img/background-projects.jpg");
+  background: url("../img/background-projects.jpg");
   background-size: cover;
 }
 .projects__img_title {
